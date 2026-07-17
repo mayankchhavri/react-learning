@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Dental Clinic</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Dental Clinic</h1>
+
+        <p>Your Smile, Our Priority</p>
+
+        <hr>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="services.html">Services</a> |
+            <a href="doctors.html">Doctors</a> |
+            <a href="timings.html">Clinic Timings</a> |
+            <a href="appointment.html">Appointment</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <hr>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <h2>Book Your Appointment</h2>
+
+            <p>
+                Please fill out the form below. Our team will contact you shortly.
+            </p>
+
+            <form action="thankyou.html" method="get">
+
+                <label for="fullname">Full Name:</label>
+                <br>
+                <input type="text"
+                       id="fullname"
+                       class="input-field"
+                       placeholder="Enter your full name"
+                       required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email"
+                       id="email"
+                       class="input-field"
+                       placeholder="Enter your email"
+                       required>
+
+                <br><br>
+
+                <label for="phone">Mobile Number:</label>
+                <br>
+                <input type="tel"
+                       id="phone"
+                       class="input-field"
+                       placeholder="Enter your mobile number">
+
+                <br><br>
+
+                <label for="date">Preferred Appointment Date:</label>
+                <br>
+                <input type="date"
+                       id="date">
+
+                <br><br>
+
+                <label>Select Gender:</label>
+
+                <br>
+
+                <input type="radio"
+                       id="male"
+                       name="gender">
+
+                <label for="male">Male</label>
+
+                <input type="radio"
+                       id="female"
+                       name="gender">
+
+                <label for="female">Female</label>
+
+                <br><br>
+
+                <label>Select Treatment:</label>
+
+                <br>
+
+                <select id="treatment">
+
+                    <option>Dental Check-up</option>
+
+                    <option>Root Canal</option>
+
+                    <option>Dental Implant</option>
+
+                    <option>Teeth Whitening</option>
+
+                    <option>Braces</option>
+
+                </select>
+
+                <br><br>
+
+                <label>Medical History:</label>
+
+                <br>
+
+                <textarea
+                    rows="5"
+                    cols="40"
+                    placeholder="Describe your dental problem"></textarea>
+
+                <br><br>
+
+                <label>Additional Services Required:</label>
+
+                <br>
+
+                <input type="checkbox" id="xray">
+                <label for="xray">Dental X-Ray</label>
+
+                <br>
+
+                <input type="checkbox" id="cleaning">
+                <label for="cleaning">Teeth Cleaning</label>
+
+                <br>
+
+                <input type="checkbox" id="consultation">
+                <label for="consultation">General Consultation</label>
+
+                <br><br>
+
+                <input type="submit" value="Book Appointment">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr>
+    <br><br>
+    <hr>
+
+    <footer>
+
+        <p>
+            Dental Clinic | All Rights Reserved
+        </p>
+
+    </footer>
+    </hr>
+
+</body>
+
+</html>
