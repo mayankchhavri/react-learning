@@ -1,4 +1,4 @@
-# HTML-learning
+# HTML
 HTML learning and practice
 
 
@@ -7,7 +7,7 @@ It includes dental clinic website project folder. Dental Clinic is a basic multi
 Structure of project folder is :
 
 ```text
-dental-clinic/
+dental-website/
 │
 ├── index.html
 ├── about.html
@@ -19,6 +19,19 @@ dental-clinic/
 ├── contact.html
 ├── images/
 ├── videos/
+└── README.md
+```
+
+# CSS
+CSS learning and practice
+
+It includes dental clinic website project folder. Which includes CSS file used for styling Dental Clinic website.
+Folder structure is :
+
+```text
+dental-website/
+│
+├── style.css
 └── README.md
 ```
 

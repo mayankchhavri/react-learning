@@ -1,0 +1,162 @@
+@font-face{
+    font-family: MyFont;
+    src: url("Roboto-Regular.ttf");
+}
+
+body{
+
+    background-color: rgb(240,248,255);
+
+    color: #333333;
+
+    font-family: MyFont;
+
+    margin: 20px;
+
+}
+
+h1{
+
+    color: navy;
+
+    text-align: center;
+
+    font-size: 40px;
+
+}
+
+h2{
+
+    color: hsl(180,100%,25%);
+
+}
+
+h3{
+
+    color: green;
+
+}
+
+p{
+
+    font-size:18px;
+
+}
+
+nav{
+
+    text-align:center;
+
+}
+
+a{
+
+    color:blue;
+
+}
+
+img{
+
+    border-style:solid;
+
+    border-width:3px;
+
+    border-color:darkblue;
+
+    border-radius:15px;
+
+}
+
+table{
+
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background-color:steelblue;
+
+    color:white;
+
+}
+
+th,td{
+
+    padding:10px;
+
+}
+
+section{
+
+    background-color:white;
+
+    margin-top:25px;
+
+    margin-bottom:25px;
+
+    margin-left:10px;
+
+    margin-right:10px;
+
+    border-style:solid;
+
+    border-width:2px;
+
+    border-color:lightgray;
+
+    border-radius:10px;
+
+}
+
+footer{
+
+    text-align:center;
+
+    background-color:rgb(220,220,220);
+
+    padding:15px;
+
+}
+
+#doctor1{
+
+    background-color:lightyellow;
+
+}
+
+#doctor2{
+
+    background-color:lavender;
+
+}
+
+.box{
+
+    border:2px solid black;
+
+    margin:20px;
+
+    padding:15px;
+
+}
+
+.shadow{
+
+    box-shadow:8px 8px 10px gray;
+
+}
+
+.heading{
+
+    text-shadow:3px 3px 5px gray;
+
+}
+
+input,select,textarea{
+
+    border-radius:6px;
+
+    border:1px solid gray;
+
+}
