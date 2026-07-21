@@ -160,3 +160,241 @@ input,select,textarea{
     border:1px solid gray;
 
 }
+
+/* Universal Selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Background Image */
+body{
+
+    background-image:url("../../html/dental website/images/clinic.jpg");
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-size:cover;
+
+}
+
+/* Navigation */
+
+nav{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    padding:20px;
+
+}
+
+/* Navigation Hover */
+
+nav a{
+
+    text-decoration:none;
+
+    transition:0.3s;
+
+}
+
+nav a:hover{
+
+    color:red;
+
+    transform:scale(1.2);
+
+}
+
+/* Hero Image */
+
+img{
+
+    width:350px;
+
+    height:250px;
+
+    opacity:0.9;
+
+    transition:0.5s;
+
+}
+
+img:hover{
+
+    opacity:1;
+
+    transform:scale(1.05);
+
+}
+
+/* Flexbox */
+
+.doctor-container{
+
+    display:flex;
+
+    justify-content:space-evenly;
+
+    flex-wrap:wrap;
+
+}
+
+/* Grid */
+
+.service-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+/* Cards */
+
+.card{
+
+    padding:20px;
+
+    margin:20px;
+
+    overflow:auto;
+
+}
+
+/* Fixed Button */
+
+.fixed-button{
+
+    position:fixed;
+
+    bottom:20px;
+
+    right:20px;
+
+}
+
+/* Relative Position */
+
+.relative-box{
+
+    position:relative;
+
+    left:20px;
+
+}
+
+/* Sticky Navigation */
+
+header{
+
+    position:sticky;
+
+    top:0;
+
+    background:white;
+
+}
+
+/* Float */
+
+.float-image{
+
+    float:right;
+
+    margin-left:20px;
+
+}
+
+/* Display */
+
+.inline{
+
+    display:inline;
+
+}
+
+.block{
+
+    display:block;
+
+}
+
+.inline-block{
+
+    display:inline-block;
+
+}
+
+.none{
+
+    display:none;
+
+}
+
+/* Animation */
+
+@keyframes zoom{
+
+    from{
+
+        transform:scale(1);
+
+    }
+
+    to{
+
+        transform:scale(1.05);
+
+    }
+
+}
+
+h1{
+
+    animation:zoom 2s infinite alternate;
+
+}
+
+/* Media Query */
+
+@media screen and (max-width:768px){
+
+    nav{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .doctor-container{
+
+        flex-direction:column;
+
+    }
+
+    .service-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    img{
+
+        width:100%;
+
+        height:auto;
+
+    }
+
+}
